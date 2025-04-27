@@ -20,4 +20,11 @@ print(type(is_ok))
 num2 = 2
 name2 = 'Mike'
 num2 = name2
+
 print(num2, type(num2))
+
+#型の変換
+name3 = '3'
+new_num = int(name3)
+
+print(new_num, type(new_num))
