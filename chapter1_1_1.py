@@ -28,3 +28,10 @@ name3 = '3'
 new_num = int(name3)
 
 print(new_num, type(new_num))
+
+#型の宣言
+num4: int = 1
+name4: str = '1'
+num4 = name4
+
+print(num4, type(num4))
