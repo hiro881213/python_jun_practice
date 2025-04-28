@@ -4,3 +4,6 @@ print(2 + 2)
 
 # 整数の型
 print(type(1))
+
+# 小数の型
+print(type(1.6))
