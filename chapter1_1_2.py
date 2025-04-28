@@ -4,3 +4,6 @@ print('Hi')
 
 # 複数の文字列を出力する
 print('Hi', 'Mike')
+
+# 区切り文字を指定する
+print('Hi', 'Mike', sep = ',')
