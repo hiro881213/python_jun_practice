@@ -7,3 +7,6 @@ print(type(1))
 
 # 小数の型
 print(type(1.6))
+
+# 小数の省略
+print(.6)
