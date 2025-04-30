@@ -3,3 +3,6 @@
 # 文字列を表示する
 s = 'hello'
 print(s)
+
+# シングルクォートの中にシングルクォート
+print('I don\'t know')
