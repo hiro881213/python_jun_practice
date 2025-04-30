@@ -27,3 +27,9 @@ print(5 ** 2)
 pie = 3.14159265358979
 print(pie)
 print(round(pie, 2))
+
+# sqrtを利用する
+import math
+
+result_1 = math.sqrt(25)
+print(result_1)
