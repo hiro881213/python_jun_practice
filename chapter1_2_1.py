@@ -12,3 +12,6 @@ print('say "I don\'t know"')
 
 # ダブルクォートの中にダブルクォート
 print("say \"I don't know\"")
+
+# 文字列の途中に改行を入れる
+print('hello. \nHow are you?')
