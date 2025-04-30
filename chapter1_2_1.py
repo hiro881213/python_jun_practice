@@ -18,3 +18,10 @@ print('hello. \nHow are you?')
 
 # rawデータを出力
 print(r'C:\name\name')
+
+# 複数行にわたる文字列の出力
+print("""
+line1
+line2
+line3
+""")
