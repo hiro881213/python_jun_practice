@@ -9,3 +9,6 @@ print('I don\'t know')
 
 # シングルクォートの中にダブルクォート
 print('say "I don\'t know"')
+
+# ダブルクォートの中にダブルクォート
+print("say \"I don't know\"")
