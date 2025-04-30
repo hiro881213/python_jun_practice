@@ -33,3 +33,7 @@ import math
 
 result_1 = math.sqrt(25)
 print(result_1)
+
+# 対数を利用する
+result_2 = math.log2(10)
+print(result_2)
