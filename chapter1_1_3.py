@@ -22,3 +22,8 @@ print(17 % 3)
 
 # 冪乗を求める
 print(5 ** 2)
+
+# 数値を丸める
+pie = 3.14159265358979
+print(pie)
+print(round(pie, 2))
