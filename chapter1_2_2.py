@@ -13,3 +13,9 @@ print(word[-1])
 print(word[0:2])
 print(word[2:5])
 print(word[2:])
+
+# 文字列の変更
+word2 = 'python'
+word2 = 'j' + word2[1:]
+
+print(word2)
