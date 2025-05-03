@@ -17,3 +17,9 @@ print(prefix + 'thon')
 # 複数行にわたる文字列の連結
 print('aaaaaaaaaaaaaaaaaaaaa'
       'bbbbbbbbbbbbbbbbbbbbb')
+
+# 複数行にわたる文字列の連結2
+s = 'aaaaaaaaaaaaaaaaaaaaa'\
+      'bbbbbbbbbbbbbbbbbbbbb'
+
+print(s)
