@@ -9,3 +9,7 @@ print('Hi. ' * 3 + 'Mike. ')
 # リテラル同士を連結する
 print('Py' + 'thon')
 print('Py''thon')
+
+# 変数とリテラルを連結する
+prefix = 'Py'
+print(prefix + 'thon')
