@@ -5,3 +5,7 @@ print('Hi. ' * 3)
 
 # 文字列を連結する
 print('Hi. ' * 3 + 'Mike. ')
+
+# リテラル同士を連結する
+print('Py' + 'thon')
+print('Py''thon')
