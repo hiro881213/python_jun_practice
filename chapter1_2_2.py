@@ -11,3 +11,4 @@ print(word[-1])
 # 1.2.2.2. 文字列のスライス
 # 文字列のスライス
 print(word[0:2])
+print(word[2:5])
