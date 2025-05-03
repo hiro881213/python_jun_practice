@@ -12,3 +12,4 @@ print(word[-1])
 # 文字列のスライス
 print(word[0:2])
 print(word[2:5])
+print(word[2:])
