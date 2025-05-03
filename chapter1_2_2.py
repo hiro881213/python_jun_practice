@@ -22,3 +22,7 @@ print(word2)
 
 # 全文字列の出力
 print(word[:])
+
+# len関数
+n = len(word)
+print(n)
