@@ -13,3 +13,7 @@ print('Py''thon')
 # 変数とリテラルを連結する
 prefix = 'Py'
 print(prefix + 'thon')
+
+# 複数行にわたる文字列の連結
+print('aaaaaaaaaaaaaaaaaaaaa'
+      'bbbbbbbbbbbbbbbbbbbbb')
