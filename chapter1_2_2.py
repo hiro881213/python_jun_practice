@@ -19,3 +19,6 @@ word2 = 'python'
 word2 = 'j' + word2[1:]
 
 print(word2)
+
+# 全文字列の出力
+print(word[:])
