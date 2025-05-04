@@ -3,3 +3,6 @@
 # 文字列の挿入
 print("a is {}".format("a"))
 print("a is {}".format("test"))
+
+# 複数の文字列の挿入
+print("a is {} {} {}".format(1,2,3))
