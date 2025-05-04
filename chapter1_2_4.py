@@ -16,3 +16,7 @@ print("My name is {0} {1}. Watashi wa {1} {0}.".format("Keanu", "Reeves"))
 
 # インデックスを文字列にする
 print("My name is {name} {family}. Watashi wa {family} {name}.".format(name = "Keanu", family = "Reeves"))
+
+# f-string1
+a = "a"
+print(f"a is {a}.")
