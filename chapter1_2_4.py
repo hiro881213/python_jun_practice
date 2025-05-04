@@ -10,3 +10,6 @@ print("a is {} {} {}".format(1,2,3))
 # インデックスによる複数の文字列の挿入1
 print("a is {0} {1} {2}".format(1,2,3))
 print("a is {2} {1} {0}".format(1,2,3))
+
+# インデックスによる複数の文字列の挿入2
+print("My name is {0} {1}. Watashi wa {1} {0}.".format("Keanu", "Reeves"))
