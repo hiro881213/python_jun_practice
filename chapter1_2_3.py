@@ -20,3 +20,6 @@ print(s.count('Mike'))
 
 # capitalizeメソッド
 print(s.capitalize())
+
+# titleメソッド
+print(s.title())
