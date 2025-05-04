@@ -29,3 +29,6 @@ print(s.upper())
 
 # lowerメソッド
 print(s.lower())
+
+# replaceメソッド
+print(s.replace("Mike", "Nancy"))
