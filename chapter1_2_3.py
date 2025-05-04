@@ -14,3 +14,6 @@ print(s.find('Mike'))
 
 # rfindメソッド
 print(s.rfind('Mike'))
+
+# countメソッド
+print(s.count('Mike'))
