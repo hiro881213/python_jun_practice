@@ -23,3 +23,9 @@ print(s.capitalize())
 
 # titleメソッド
 print(s.title())
+
+# upperメソッド
+print(s.upper())
+
+# lowerメソッド
+print(s.lower())
