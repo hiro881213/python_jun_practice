@@ -13,3 +13,6 @@ print("a is {2} {1} {0}".format(1,2,3))
 
 # インデックスによる複数の文字列の挿入2
 print("My name is {0} {1}. Watashi wa {1} {0}.".format("Keanu", "Reeves"))
+
+# インデックスを文字列にする
+print("My name is {name} {family}. Watashi wa {family} {name}.".format(name = "Keanu", family = "Reeves"))
