@@ -6,3 +6,7 @@ print("a is {}".format("test"))
 
 # 複数の文字列の挿入
 print("a is {} {} {}".format(1,2,3))
+
+# インデックスによる複数の文字列の挿入1
+print("a is {0} {1} {2}".format(1,2,3))
+print("a is {2} {1} {0}".format(1,2,3))
