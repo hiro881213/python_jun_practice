@@ -17,3 +17,6 @@ print(s.rfind('Mike'))
 
 # countメソッド
 print(s.count('Mike'))
+
+# capitalizeメソッド
+print(s.capitalize())
