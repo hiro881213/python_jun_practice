@@ -35,3 +35,7 @@ print(f"My name is {name} {family}. Watashi wa {family} {name}.")
 
 # 数値を文字列に型変換する
 print(str(1))
+
+# floatやBooleanを文字列に型変換する
+print(str(3.14))
+print(str(True))
