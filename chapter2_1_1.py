@@ -11,3 +11,8 @@ print(l[1])
 # リストのインデックス2
 print(l[-1])
 print(l[-2])
+
+# リストのインデックス3
+print(l[0:2])
+print(l[:2])
+print(l[2:5])
