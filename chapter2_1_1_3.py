@@ -11,3 +11,7 @@ print(x)
 # ネストの出力1
 print(x[0])
 print(x[1])
+
+# ネストの出力2
+print(x[0][1])
+print(x[1][2])
