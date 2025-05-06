@@ -5,3 +5,6 @@ l = [1, 20, 4, 50, 2, 1, 2]
 
 # len関数
 print(len(l))
+
+# type関数
+print(type(l))
