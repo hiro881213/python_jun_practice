@@ -7,3 +7,7 @@ n = [1, 2, 3]
 x = [a, n]
 
 print(x)
+
+# ネストの出力1
+print(x[0])
+print(x[1])
