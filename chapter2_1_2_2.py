@@ -25,4 +25,8 @@ print(n)
 
 # del文2
 del n
+
+# removeメソッド
+n = [1, 2, 2, 2, 3]
+n.remove(2)
 print(n)
