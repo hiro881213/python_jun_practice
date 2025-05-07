@@ -14,3 +14,7 @@ print(n)
 # popメソッド
 n.pop()
 print(n)
+
+# インデックスでpopの取り出し先を指定する
+n.pop(0)
+print(n)
