@@ -22,3 +22,7 @@ print(n)
 # del文1
 del n[0]
 print(n)
+
+# del文2
+del n
+print(n)
