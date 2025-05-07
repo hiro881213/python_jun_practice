@@ -18,3 +18,7 @@ print(n)
 # インデックスでpopの取り出し先を指定する
 n.pop(0)
 print(n)
+
+# del文1
+del n[0]
+print(n)
