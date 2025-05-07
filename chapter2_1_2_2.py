@@ -10,3 +10,7 @@ print(n)
 # insertメソッド
 n.insert(0, 200)
 print(n)
+
+# popメソッド
+n.pop()
+print(n)
