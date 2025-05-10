@@ -9,3 +9,8 @@ print(r)
 # sortメソッド(降順)
 r.sort(reverse=True)
 print(r)
+
+# reverseメソッド
+r.sort()
+r.reverse()
+print(r)
