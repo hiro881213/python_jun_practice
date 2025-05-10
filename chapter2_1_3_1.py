@@ -9,3 +9,6 @@ print(r.index(3))
 
 # indexメソッド2
 print(r.index(3, 3))
+
+# countメソッド
+print(r.count(3))
