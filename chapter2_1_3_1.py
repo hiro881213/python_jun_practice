@@ -12,3 +12,7 @@ print(r.index(3, 3))
 
 # countメソッド
 print(r.count(3))
+
+# in演算子とif文
+if 5 in r:
+    print('exist')
