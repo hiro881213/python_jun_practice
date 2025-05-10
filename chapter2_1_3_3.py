@@ -11,3 +11,7 @@ print(to_split)
 # 区切り文字が存在しない場合
 to_split2 = s.split('!!!!!')
 print(to_split2)
+
+# joinメソッド
+x = ' '.join(to_split)
+print(x)
