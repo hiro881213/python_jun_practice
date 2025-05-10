@@ -4,4 +4,7 @@ seat =[]
 min = 0
 max = 5
 
+# 乗客を乗せる
+seat.append('p')
 print(min <= len(seat) < max)
+print(len(seat))
