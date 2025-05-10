@@ -6,3 +6,6 @@ r = [1, 2, 3, 4, 5, 1, 2, 3]
 
 # indexメソッド
 print(r.index(3))
+
+# indexメソッド2
+print(r.index(3, 3))
