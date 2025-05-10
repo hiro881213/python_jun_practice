@@ -8,3 +8,18 @@ max = 5
 seat.append('p')
 print(min <= len(seat) < max)
 print(len(seat))
+
+# 乗客が乗れなくなるまで乗せる
+seat.append('p')
+seat.append('p')
+seat.append('p')
+seat.append('p')
+
+print(min <= len(seat) < max)
+print(len(seat))
+
+# 乗客を下ろす
+seat.pop()
+
+print(min <= len(seat) < max)
+print(len(seat))
