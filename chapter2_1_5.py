@@ -3,3 +3,5 @@
 seat =[]
 min = 0
 max = 5
+
+print(min <= len(seat) < max)
