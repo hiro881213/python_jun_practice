@@ -13,3 +13,10 @@ print(d)
 # 数字をキー値にする
 d[1] = 10000
 print(d)
+
+# dict関数
+d2 = dict(a = 10, b = 20)
+print(d2)
+
+d3 = dict([('a', 10), ('b', 20)])
+print(d3)
