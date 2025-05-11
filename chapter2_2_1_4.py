@@ -16,3 +16,7 @@ print(type(t2))
 t3 = ()
 print(t3)
 print(type(t3))
+
+t4 = (1)
+print(t4)
+print(type(t4))
