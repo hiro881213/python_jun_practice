@@ -6,3 +6,7 @@ d = {'x': 10, 'y': 20}
 
 print(d)
 print(type(d))
+
+# 辞書型の値出力
+print(d['x'])
+print(d['y'])
