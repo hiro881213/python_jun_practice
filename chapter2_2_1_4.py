@@ -11,3 +11,8 @@ print(t)
 t2 = 1,
 print(t2)
 print(type(t2))
+
+# ()を使った時の挙動
+t3 = ()
+print(t3)
+print(type(t3))
