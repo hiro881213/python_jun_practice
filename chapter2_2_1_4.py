@@ -6,3 +6,8 @@
 t = 1, 2, 3
 print(type(t))
 print(t)
+
+# カンマをつけるとタプルになる
+t2 = 1,
+print(t2)
+print(type(t2))
