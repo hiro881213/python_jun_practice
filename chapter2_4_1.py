@@ -10,3 +10,6 @@ print(type(a))
 b = {2, 3, 3, 6, 7}
 print(a - b)
 print(b - a)
+
+# 集合の積
+print(a & b)
