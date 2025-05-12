@@ -31,3 +31,9 @@ del d['y']
 print(d)
 
 del d
+
+# clearメソッド
+d = {'x': 10, 'y': 20}
+d.clear()
+
+print(d)
