@@ -37,3 +37,9 @@ d = {'x': 10, 'y': 20}
 d.clear()
 
 print(d)
+
+# in
+d = {'a': 100, 'b': 200}
+
+print('a' in d)
+print('j' in d)
