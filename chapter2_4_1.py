@@ -16,3 +16,6 @@ print(a & b)
 
 # 集合の和
 print(a | b)
+
+# 集合の対称差
+print(a ^ b)
