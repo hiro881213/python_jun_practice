@@ -7,3 +7,10 @@ print(d.keys())
 
 # valuesメソッド
 print(d.values())
+
+# updateメソッド
+d = {'x': 10, 'y': 20}
+d2 = {'x': 1000, 'j': 500}
+d.update(d2)
+
+print(d)
