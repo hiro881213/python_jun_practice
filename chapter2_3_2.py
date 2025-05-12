@@ -18,3 +18,6 @@ print(d)
 # getメソッド
 print(d['x'])
 print(d.get('x'))
+
+# NoneType
+print(d.get('z'))
