@@ -14,3 +14,7 @@ d2 = {'x': 1000, 'j': 500}
 d.update(d2)
 
 print(d)
+
+# getメソッド
+print(d['x'])
+print(d.get('x'))
