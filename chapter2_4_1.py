@@ -13,3 +13,6 @@ print(b - a)
 
 # 集合の積
 print(a & b)
+
+# 集合の和
+print(a | b)
