@@ -4,3 +4,6 @@ d = {'x': 10, 'y': 20}
 
 # keysメソッド
 print(d.keys())
+
+# valuesメソッド
+print(d.values())
