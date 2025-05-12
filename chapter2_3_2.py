@@ -29,3 +29,5 @@ print(d)
 # del文
 del d['y']
 print(d)
+
+del d
