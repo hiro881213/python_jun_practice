@@ -25,3 +25,7 @@ print(d.get('z'))
 # popメソッド
 print(d.pop('x'))
 print(d)
+
+# del文
+del d['y']
+print(d)
