@@ -21,3 +21,7 @@ print(d.get('x'))
 
 # NoneType
 print(d.get('z'))
+
+# popメソッド
+print(d.pop('x'))
+print(d)
