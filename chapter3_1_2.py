@@ -1,2 +1,6 @@
 # 3.1. コードを読みやすくする
 # 3.1.2. 長すぎる行を分割する
+s = 'aaaaaaaaaaa' \
+     + 'bbbbbbbbbbbbb'
+
+print(s)
