@@ -9,3 +9,7 @@ print(s)
 # removeメソッド
 s.remove(6)
 print(s)
+
+# clearメソッド
+s.clear()
+print(s)
