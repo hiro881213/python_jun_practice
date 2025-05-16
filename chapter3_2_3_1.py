@@ -12,3 +12,10 @@ if x in y:
 # not
 if 100 not in y:
     print('not in')
+
+# not
+a = 1
+b = 10
+
+if not a == b:
+    print('not equal')
