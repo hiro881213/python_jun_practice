@@ -55,3 +55,11 @@ if is_ok:
     print('OK!')
 else:
     print('No!')
+
+# リストに要素が存在する場合のifの判定
+is_ok = [1, 2, 3, 4]
+
+if is_ok:
+    print('OK!')
+else:
+    print('No!')
