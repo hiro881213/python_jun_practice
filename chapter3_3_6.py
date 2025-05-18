@@ -22,3 +22,8 @@ for i in range(2, 10):
 print('###############')
 for i in range(2, 10, 3):
     print(i)
+
+# 同じ処理を複数回繰り返す
+print('###############')
+for i in range(10):
+    print('hello')
