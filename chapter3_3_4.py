@@ -8,3 +8,7 @@ i = 0
 while i < len(some_list):
     print(some_list[i])
     i += 1
+
+# for文でリストの要素を取り出す
+for i in some_list:
+    print(i)
