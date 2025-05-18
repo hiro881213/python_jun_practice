@@ -10,3 +10,7 @@ for i in num_list:
 # range関数を利用するパターン
 for i in range(10):
     print(i)
+
+# range関数で始まりと終わりを指定する
+for i in range(2, 10):
+    print(i)
