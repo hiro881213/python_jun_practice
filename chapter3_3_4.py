@@ -12,3 +12,7 @@ while i < len(some_list):
 # for文でリストの要素を取り出す
 for i in some_list:
     print(i)
+
+# for文で文字列を取り出す
+for s in 'abcde':
+    print(s)
