@@ -8,3 +8,15 @@ while count < 5:
     count += 1
 else:
     print('Done')
+
+# while else文とbreak文
+count = 0
+
+while count < 5:
+    if count == 1:
+        break
+
+    print(count)
+    count += 1
+else:
+    print('Done')
