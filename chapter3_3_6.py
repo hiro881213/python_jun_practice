@@ -27,3 +27,9 @@ for i in range(2, 10, 3):
 print('###############')
 for i in range(10):
     print('hello')
+
+# range関数の値を利用しないときの表現
+print('###############')
+
+for _ in range(10):
+    print('hello')
