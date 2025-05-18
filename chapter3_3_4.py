@@ -20,3 +20,10 @@ for s in 'abcde':
 # for文で文字列のリストを取り出す
 for word in ['My', 'name', 'is', 'Mike']:
     print(word)
+
+# for文とbreak文
+for word in ['My', 'name', 'is', 'Mike']:
+    if word == 'name':
+        break
+
+    print(word)
