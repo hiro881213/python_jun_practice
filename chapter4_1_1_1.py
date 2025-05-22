@@ -7,3 +7,9 @@ def say_something():
 
 say_something()
 
+# 関数の呼び出し
+say_something
+
+
+
+
