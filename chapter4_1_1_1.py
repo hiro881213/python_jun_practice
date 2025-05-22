@@ -11,9 +11,13 @@ say_something()
 say_something
 
 # 変数を関数に入れる
-f = say_something()
-f
+f = say_something
+f()
 
+# 返り値
+def say_something2():
+    s = 'Hi'
+    return s
 
-
-
+result = say_something2()
+print(result)
