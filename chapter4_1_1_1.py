@@ -10,6 +10,10 @@ say_something()
 # 関数の呼び出し
 say_something
 
+# 変数を関数に入れる
+f = say_something()
+f
+
 
 
 
