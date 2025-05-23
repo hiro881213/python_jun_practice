@@ -16,11 +16,3 @@ f()
 
 # 関数の型
 print(type(say_something))
-
-# 返り値
-def say_something2():
-    s = 'Hi'
-    return s
-
-result = say_something2()
-print(result)
