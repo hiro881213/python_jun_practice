@@ -14,6 +14,9 @@ say_something
 f = say_something
 f()
 
+# 関数の型
+print(type(say_something))
+
 # 返り値
 def say_something2():
     s = 'Hi'
