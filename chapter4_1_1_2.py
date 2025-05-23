@@ -8,20 +8,3 @@ def say_something2():
 
 result = say_something2()
 print(result)
-
-def what_is_this(color):
-    print(color)
-
-what_is_this('red')
-
-# 引数２
-def what_is_this2(color):
-    if color == 'red':
-        return 'tomato'
-    elif color == 'green':
-        return 'green pepper'
-    else:
-        return "I don't know"
-
-result = what_is_this2('red')
-print(result)
