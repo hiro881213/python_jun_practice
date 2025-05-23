@@ -19,8 +19,14 @@ def what_is_this2(color):
 result = what_is_this2('red')
 print(result)
 
-# 引数の型を宣言する
+# 引数の型の宣言
 def add_num(a: int, b: int):
     return a + b
 
 print(add_num(1, 3))
+
+# 返り値の型の宣言
+def add_num2(a: int, b: int) -> int:
+    return a + b
+
+print(add_num2(2, 5))
