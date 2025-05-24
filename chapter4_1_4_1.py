@@ -7,3 +7,9 @@ def say_something(word, word2, word3):
     print(word3)
 
 say_something('Hi!', 'Mike', 'Nancy')
+
+# 位置引数のタプル化
+def say_something2(*args):
+    print(args)
+
+say_something2('Hi!', 'Mike', 'Nancy')
