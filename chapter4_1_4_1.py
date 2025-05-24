@@ -20,3 +20,12 @@ def say_something3(*args):
         print(arg)
 
 say_something3('Hi!', 'Mike', 'Nancy')
+
+# 位置引数とタプル化した引数を同時に使う
+def say_something4(word, *args):
+    print('word = ', word)
+
+    for arg in args:
+        print(arg)
+
+say_something4('Hi!', 'Mike', 'Nancy')
