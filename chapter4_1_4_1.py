@@ -13,3 +13,10 @@ def say_something2(*args):
     print(args)
 
 say_something2('Hi!', 'Mike', 'Nancy')
+
+# タプル化した関数で引数を一括処理できるようにする
+def say_something3(*args):
+    for arg in args:
+        print(arg)
+
+say_something3('Hi!', 'Mike', 'Nancy')
