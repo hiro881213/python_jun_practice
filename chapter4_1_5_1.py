@@ -11,3 +11,12 @@ def menu2(**kwargs):
     print(kwargs)
 
 menu2(entree = 'beef', drink = 'coffee')
+
+print('#########')
+
+# キーワード引数の辞書化
+def menu3(**kwargs):
+    for k, v in kwargs.items():
+        print(v, k)
+
+menu3(entree = 'beef', drink = 'coffee')
