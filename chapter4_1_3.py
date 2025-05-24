@@ -13,3 +13,6 @@ print(r)
 y = [1, 2, 3]
 r = sample_func(200, y)
 print(r)
+
+r = sample_func(100)
+print(r)
