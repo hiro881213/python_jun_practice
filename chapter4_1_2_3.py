@@ -7,3 +7,7 @@ def menu(entree = 'beef', drink = 'wine', dessert = 'ice'):
     print('dessert = ', dessert)
 
 menu()
+
+# デフォルト引数を上書きする
+print('############')
+menu('chicken', drink = 'beer')
