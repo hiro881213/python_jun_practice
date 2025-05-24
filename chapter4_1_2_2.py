@@ -7,3 +7,6 @@ def menu(entree, drink, dessert):
     print('dessert = ', dessert)
 
 menu(entree = 'beef', dessert = 'ice', drink = 'beer')
+
+# キーワード引数と位置引数を混ぜて使う
+menu('beef', dessert = 'ice', drink = 'beer')
