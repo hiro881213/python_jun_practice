@@ -20,3 +20,13 @@ def menu3(**kwargs):
         print(v, k)
 
 menu3(entree = 'beef', drink = 'coffee')
+
+print('#########')
+
+# 位置引数とタプル化と辞書化
+def menu4(food, *args, **kwargs):
+    print(food)
+    print(args)
+    print(kwargs)
+
+menu4('banana', 'apple', 'orange', entree = 'beef', drink = 'coffee')
