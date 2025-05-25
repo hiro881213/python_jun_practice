@@ -14,3 +14,6 @@ def example_func(param1, param2):
     print(param2)
 
     return True
+
+## __doc__の利用
+print(example_func.__doc__)
