@@ -11,3 +11,6 @@ def change_words(words, func):
 # 文字列の語頭を大文字にする関数
 def sample_func(word):
     return word.capitalize()
+
+# リストの要素に関数を適用する
+change_words(l, sample_func)
