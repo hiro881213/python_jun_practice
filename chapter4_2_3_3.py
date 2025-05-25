@@ -19,3 +19,7 @@ print('---------------------------')
 change_words(l, sample_func2)
 print('---------------------------')
 
+# lambda関数を利用する
+change_words(l, lambda word: word.capitalize)
+print('---------------------------')
+change_words(l, lambda word: word.lower)
