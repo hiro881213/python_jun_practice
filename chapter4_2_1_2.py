@@ -21,3 +21,7 @@ def circle_area_func(pi):
         return pi * radius * radius
 
     return circle_area
+
+# クロージャーを格納する
+cal1 = circle_area_func(3.14)
+cal2 = circle_area_func(3.14159)
