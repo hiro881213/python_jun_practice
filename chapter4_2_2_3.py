@@ -13,6 +13,16 @@ def print_more(func):
 
     return wrapper
 
+def print_info(func):
+    def wrapper(*args, **kwargs):
+        print('start')
+        result = func(*args, **kwargs)
+        print('end')
+
+        return result
+    return wrapper
+
+@print_info
 @print_more
 def add_num(a, b):
     return a + b
