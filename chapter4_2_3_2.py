@@ -8,6 +8,11 @@ def change_words(words, func):
     for word in words:
         print(func(word))
 
+# ラムダ関数を関数にして実行する
 sample_func = lambda word: word.capitalize()
-
 change_words(l, sample_func)
+
+print('################')
+
+# ラムダ関数を直接change_wordsの引数に入れる
+change_words(l, lambda word: word.capitalize())
