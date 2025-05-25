@@ -9,3 +9,6 @@ r = add_num(10, 20)
 print('end')
 
 print(r)
+
+# デコレータの関数を作成する
+def print_info(func):
