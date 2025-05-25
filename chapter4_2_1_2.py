@@ -9,3 +9,7 @@ def outer(a, b):
     return inner
 
 print(outer(1, 2))
+
+f = outer(1, 2)
+r = f()
+print(r)
