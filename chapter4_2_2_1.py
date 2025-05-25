@@ -12,3 +12,6 @@ print(r)
 
 # デコレータの関数を作成する
 def print_info(func):
+    # wrapper関数
+    def wrapper(*args, **kwargs):
+        result = func(*args, **kwargs)
