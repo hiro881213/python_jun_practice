@@ -25,3 +25,7 @@ def circle_area_func(pi):
 # クロージャーを格納する
 cal1 = circle_area_func(3.14)
 cal2 = circle_area_func(3.14159)
+
+# ２通りの計算を実行する
+print(cal1(10))
+print(cal2(10))
