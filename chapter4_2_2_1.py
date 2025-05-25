@@ -14,7 +14,15 @@ print(r)
 def print_info(func):
     # wrapper関数
     def wrapper(*args, **kwargs):
+        print('start')
         result = func(*args, **kwargs)
+        print('end')
+
         return result
 
     return wrapper
+
+# デコレータの実行
+f = print_info(add_num)
+r = f(10, 20)
+print(r)
