@@ -11,3 +11,7 @@ for i in t:
         r.append(i * j)
 
 print(r)
+
+# リスト内包表記を使う
+r = [i * j for i in t for j in t2]
+print(r)
