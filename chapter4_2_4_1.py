@@ -14,3 +14,12 @@ def greeting():
 
 for g in greeting():
     print(g)
+
+# next関数の利用
+g = greeting()
+
+print(next(g))
+print('@@@@@@@@@@@')
+print(next(g))
+print('@@@@@@@@@@@')
+print(next(g))
