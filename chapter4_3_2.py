@@ -9,3 +9,10 @@ for x, y in zip(w, f):
     d[x] = y
 
 print(d)
+
+# 辞書包括表記を使うパターン
+w = ['mon', 'tue', 'wed']
+f = ['coffee', 'milk', 'water']
+
+d = {x: y for x, y in zip(w, f) }
+print(d)
