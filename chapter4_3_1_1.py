@@ -25,3 +25,9 @@ for i in t:
         r.append(i)
 
 print(r)
+
+# タプルから偶数の要素を取り出してリストにする(リスト内包表記を使う)
+t = (1, 2, 3, 4, 5)
+r = [i for i in t if i % 2 == 0]
+
+print(r)
