@@ -16,3 +16,17 @@ print(next(g))
 print(next(g))
 print(next(g))
 print(next(g))
+
+# 内包表記でジェネレータを作成する
+g = (i for i in range(10))
+
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
