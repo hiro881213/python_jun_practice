@@ -3,3 +3,9 @@
 # グローバル変数
 animal = 'cat'
 print(animal)
+
+# 関数内からグローバル変数を呼び出す
+def f():
+    print(animal)
+
+f()
