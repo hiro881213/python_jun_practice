@@ -20,3 +20,7 @@ for i in range(10):
         s.add(i)
 
 print(s)
+
+# if文と集合内包表記を使う場合
+s = { i for i in range(10) if i % 2 == 0 }
+print(s)
