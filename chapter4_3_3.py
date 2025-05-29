@@ -7,3 +7,7 @@ for i in range(10):
     s.add(i)
 
 print(s)
+
+# 集合内包表記を使う場合
+s = {i for i in range(10)}
+print(s)
