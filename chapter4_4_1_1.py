@@ -9,3 +9,13 @@ def f():
     print(animal)
 
 f()
+
+# ローカル変数
+animal = 'cat'
+
+def f():
+    print(animal)
+    animal = 'dog'
+    print('after:', animal)
+
+f()
