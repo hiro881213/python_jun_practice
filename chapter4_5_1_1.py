@@ -15,3 +15,9 @@ try:
     l[i]
 except IndexError:
     print("Don't worry")
+
+# エラーの内容を表示
+try:
+    l[i]
+except IndexError as ex:
+    print("Don't Worry: {}".format(ex))
