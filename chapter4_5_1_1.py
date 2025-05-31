@@ -9,3 +9,9 @@ try:
     l[i]
 except:
     print("Don't worry")
+
+# 特定のエラーが発生した場合、処理する
+try:
+    l[i]
+except IndexError:
+    print("Don't worry")
