@@ -6,3 +6,9 @@ def f():
     print('local:', locals())
 
 f()
+
+# 空のローカル変数
+def f2():
+    print('local:', locals())
+
+f2()
