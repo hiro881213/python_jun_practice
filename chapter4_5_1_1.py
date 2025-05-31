@@ -21,3 +21,12 @@ try:
     l[i]
 except IndexError as ex:
     print("Don't Worry: {}".format(ex))
+
+# 特定のエラーの処理2
+del l
+try:
+    l[i]
+except IndexError as ex:
+    print("Don't Worry: {}".format(ex))
+except NameError as ex:
+    print(ex)
