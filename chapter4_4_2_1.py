@@ -16,3 +16,4 @@ f2()
 # globals関数
 animal = 'cat'
 print('global:', globals())
+
