@@ -4,3 +4,6 @@
 # モジュール読み込み
 import lesson_package.utils
 
+# インポートした関数の呼び出し
+r = lesson_package.utils.say_twice('hello')
+print(r)
