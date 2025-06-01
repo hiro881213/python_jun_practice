@@ -13,3 +13,9 @@ except NameError as ex:
     print(ex)
 finally:
     print("clean up")
+
+# エラー発生をcatchしないパターン
+try:
+    l[i]
+finally:
+    print("clean up")
