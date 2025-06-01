@@ -1,5 +1,8 @@
 # 4.5. 例外処理(エラーハンドリング)
 # 4.5.2. 独自例外
 # raise
-raise  IndexError('test Error')
+#raise  IndexError('test Error')
 
+# 独自の例外を作成
+class UppercaseError(Exception):
+    pass
