@@ -1,1 +1,1 @@
-__all__ = ['animal']
+__all__ = ['animal', 'human']
