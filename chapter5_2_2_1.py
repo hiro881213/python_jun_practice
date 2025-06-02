@@ -13,12 +13,3 @@ for c in s:
     d[c] += 1
 
 print(d)
-
-# setdefaultメソッド
-d = {}
-
-for c in s:
-    d.setdefault(c, 0)
-    d[c] += 1
-
-print(d)
