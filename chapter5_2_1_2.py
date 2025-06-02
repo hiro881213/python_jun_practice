@@ -14,5 +14,8 @@ for key in ranking:
 # キーの順番で並べる
 print(sorted(ranking))
 
-# バリューの値で並べる
+# バリューの値の降順で並べる
 print(sorted(ranking, key = ranking.get))
+
+# バリューの値の昇順で並べる
+print(sorted(ranking, key = ranking.get, reverse = True))
