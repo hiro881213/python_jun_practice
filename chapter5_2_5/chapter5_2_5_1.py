@@ -4,3 +4,6 @@
 print(__name__)
 
 # configの読み込み
+import config
+
+print('lesson:', __name__)
