@@ -7,3 +7,5 @@ print(__name__)
 import config
 
 print('lesson:', __name__)
+
+# animalの読み込み
