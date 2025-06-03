@@ -9,3 +9,6 @@ import config
 print('lesson:', __name__)
 
 # animalの読み込み
+import talk.animal
+
+print('lesson:', __name__)
