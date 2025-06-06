@@ -4,5 +4,8 @@ class Person:
     def __init__(self, name):
         self.name = name
 
-    del __del__(self):
+    def __del__(self):
         print('Good bye')
+
+person = Person('Mike')
+print('###########')
