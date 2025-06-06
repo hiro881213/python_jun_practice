@@ -1,9 +1,6 @@
 # 6.1. クラスとメソッド
 # 6.1.5. 継承元のメソッドを上書きして実行する
 # 6.1.5.1. メソッドのオーバーライド
-from chapter6_1_4.chapter6_1_4_3 import advanced_car
-
-
 class Car:
     def run(self):
         print('run')
