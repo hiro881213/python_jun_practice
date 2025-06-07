@@ -3,3 +3,13 @@
 class Car:
     def ride(self, person):
         person.drive()
+
+class Person:
+    def __init__(self, age = 1):
+        self.age = age
+
+    def drive(self):
+        if self.age >= 18:
+            print('ok')
+        else:
+            raise Exception('No drive')
