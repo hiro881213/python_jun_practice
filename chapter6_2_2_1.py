@@ -26,7 +26,3 @@ class Adult(Person):
         if age >= 18:
             super().__init__(age)
         else: raise ValueError
-
-baby = Baby()
-car = Car()
-car.ride(baby)
