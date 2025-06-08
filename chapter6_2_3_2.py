@@ -10,3 +10,14 @@ class Person(metaclass = abc.ABCMeta):
     def drive(self):
         pass
 
+class Adult(Person):
+    def __init(self, age = 18):
+        if age >=18:
+            super().__init__(age)
+        else:
+            raise ValueError
+    def drive(self):
+        print('run')
+
+adult = Adult()
+adult.drive()
