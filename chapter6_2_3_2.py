@@ -5,3 +5,8 @@ import abc
 class Person(metaclass = abc.ABCMeta):
     def __init(self, age = 1):
         self.age = age
+
+    @abc.abstractmethod
+    def drive(self):
+        pass
+
