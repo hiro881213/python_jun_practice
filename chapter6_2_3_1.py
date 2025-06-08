@@ -23,3 +23,6 @@ class Adult(Person):
 
     def drive(self):
         print('ok')
+
+adult = Adult()
+adult.drive()
