@@ -26,3 +26,6 @@ class Adult(Person):
 
 adult = Adult()
 adult.drive()
+
+baby = Baby()
+baby.drive()
