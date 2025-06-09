@@ -9,6 +9,8 @@ class Person:
 
 a = Person()
 print(a)
+print(a.kind)
 
 b = Person
 print(b)
+print(b.kind)
