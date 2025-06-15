@@ -7,6 +7,7 @@ CCC
 DDD
 """
 
-with open('test.txt', 'w+') as f:
-    f.write(s)
+with open('../test.txt', 'r+') as f:
     print(f.read())
+    f.seek(0)
+    f.write(s)
