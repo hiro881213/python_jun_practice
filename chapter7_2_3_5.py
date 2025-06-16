@@ -8,3 +8,6 @@ os.symlink('rename.txt', 'symlink.txt')
 
 # ディレクトリを作成
 os.mkdir('test_dir')
+
+# ディレクトリを削除
+os.rmdir('test_dir')
