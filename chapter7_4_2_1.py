@@ -4,3 +4,5 @@
 import subprocess
 
 subprocess.run(['ls'])
+print('###################')
+subprocess.run(['ls', '-al'])
